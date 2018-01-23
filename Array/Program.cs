@@ -22,7 +22,7 @@ namespace Array
 
             for (int i = 0; i < løn.Length; i++)
             {
-                Console.WriteLine("Løn " + (1+i) + ": "+ løn[i]);
+                Console.WriteLine("Månedsløn " + (1+i) + ": "+ løn[i]);
             }
 
 
