@@ -17,15 +17,14 @@ namespace Array
             {
                 sum += løn[i];
             }
-     
+           
             double gennemsnit = sum / løn.Length;
 
             for (int i = 0; i < løn.Length; i++)
             {
                 Console.WriteLine("Månedsløn " + (1+i) + ": "+ løn[i]);
             }
-
-
+       
             Console.WriteLine("Gennemsnit " + gennemsnit.ToString("N2"));
         }
     }
