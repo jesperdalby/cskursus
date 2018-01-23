@@ -22,7 +22,7 @@ namespace ConsoleApp1
                     if (50 < tal1)
 
                     {
-                        Console.ForegroundColor = ConsoleColor.Yellow;
+                        Console.ForegroundColor = ConsoleColor.Red;
                     }
                     else
                     {
