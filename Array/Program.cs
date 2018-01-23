@@ -19,6 +19,9 @@ namespace Array
             }
 
 
+
+
+
             double gennemsnit = sum / løn.Length;
             Console.WriteLine(gennemsnit);
         }
