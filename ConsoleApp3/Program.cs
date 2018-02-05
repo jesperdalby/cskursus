@@ -47,11 +47,7 @@ namespace Simpelklasse
             this.Fornavn = fornavn.ToUpper();
             this.Efternavn = efternavn.ToUpper();
 
-        }
-
+        }    
     }
-
-
-
 }
 
