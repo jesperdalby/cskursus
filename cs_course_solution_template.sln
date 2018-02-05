@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2020
+VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module01_CS", "Module01_CS\Module01_CS.csproj", "{ED61EF61-2518-4358-9274-AF90546F16DC}"
 EndProject
@@ -48,6 +48,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overload", "Overload\Overload.csproj", "{7DE61B39-A66B-4228-A03C-F5AF98EF13FF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "beregnarray", "beregnarray\beregnarray.csproj", "{46493E2C-A316-478C-B917-B343BB32135A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simpelklasse", "ConsoleApp3\Simpelklasse.csproj", "{50BB017F-1423-46AD-B9A4-9CC5A545E94C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -139,6 +141,10 @@ Global
 		{46493E2C-A316-478C-B917-B343BB32135A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46493E2C-A316-478C-B917-B343BB32135A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46493E2C-A316-478C-B917-B343BB32135A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50BB017F-1423-46AD-B9A4-9CC5A545E94C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50BB017F-1423-46AD-B9A4-9CC5A545E94C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50BB017F-1423-46AD-B9A4-9CC5A545E94C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50BB017F-1423-46AD-B9A4-9CC5A545E94C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -165,6 +171,7 @@ Global
 		{758B1575-2714-49C6-BD68-20FF94ADEE19} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{7DE61B39-A66B-4228-A03C-F5AF98EF13FF} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{46493E2C-A316-478C-B917-B343BB32135A} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
+		{50BB017F-1423-46AD-B9A4-9CC5A545E94C} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5354BDA-3E12-4F48-8A32-DAFA5BEC4AA4}
