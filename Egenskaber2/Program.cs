@@ -11,14 +11,14 @@ namespace Egenskaber2
         static void Main(string[] args)
         {
             Trekant t = new Trekant();
-
             Console.WriteLine(t.Areal);
+            Console.WriteLine(t.Grundlinje);
+            Console.WriteLine(t.Højde);
         }
     }
 
     class Trekant
     {
-
         public double Grundlinje { get; private set; }
 
         public double Højde { get; private set; }
@@ -27,12 +27,10 @@ namespace Egenskaber2
         {
             get { return Grundlinje * Højde * 0.5; }
         }
-
         public Trekant()
         {
             this.Højde = 5;
             this.Grundlinje = 7;
-        }
-
+        }        
     }
 }

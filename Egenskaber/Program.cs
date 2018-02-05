@@ -10,28 +10,24 @@ namespace Egenskaber
     {
         static void Main(string[] args)
         {
-
             Person p = new Person();
-
             p.Fornavn = "Jesper";
             p.Efternavn = "Dal";
             Console.WriteLine(p.FuldtNavn());
         }
-
-       
     }
-
 
     class Person
     {
         public string Fornavn { get; set; }
-        private string efternavn;     
+        private string efternavn;
 
         public string Efternavn
         {
             get { return efternavn; }
 
-            set {
+            set
+            {
 
                 if (value.Length > 3)
                 {
@@ -40,7 +36,7 @@ namespace Egenskaber
                 else
                 {
                     efternavn = value;
-                }                
+                }
             }
         }
         public string FuldtNavn()
