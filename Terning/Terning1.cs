@@ -8,16 +8,34 @@ namespace TerningApp1
 {
     public class Terning
     {
+
         public int Værdi;
-        private System.Random rnd = new Random();
-        public Terning(int v)
+        private static System.Random rnd = new Random();
+
+
+        // Default
+        public Terning()
         {
-            this.Værdi = 1;
+            //this.Værdi = 1;
+            this.Ryst();
         }
+
+        // Custom 
+        public Terning(int værdi)
+        {
+            this.Værdi = værdi;
+        }
+
 
         public void Skriv()
         {
             Console.WriteLine("[" + this.Værdi + "]");
+        }
+
+        public void Ryst()
+        {
+            this.Værdi = rnd.Next(1, 7);
+
         }
 
         public void Ryst(bool snyd)
@@ -30,15 +48,8 @@ namespace TerningApp1
             {
                 Ryst();
             }
-        }
-
-
-        public void Ryst()
-        {
-            this.Værdi = rnd.Next(1, 7);
 
         }
-
 
     }
 
@@ -55,17 +66,19 @@ namespace TerningApp1
             }
         }
 
+        //public void Reset() {
+
+        //}
+
         public void Skriv()
         {
-            Console.WriteLine("Bæger --- ");
+
             for (int i = 0; i < 5; i++)
             {
-                //terninger[i].Skriv();
+                //terninger[i].Skriv(); // skrver på hver linje
                 Console.Write("[" + terninger[i].Værdi + "] ");
             }
             Console.WriteLine();
-
         }
-
     }
 }
