@@ -19,9 +19,9 @@ namespace Arv
             Console.WriteLine(p.Fuldtnavn());
 
             Elev e = new Elev();
-            e.Fornavn = "Jesper";
+            e.Fornavn = "John";
 
-            e.Efternavn = "Dalby";
+            e.Efternavn = "Mogensen";
             e.Klasselokale = "33a";
 
             Console.WriteLine(e.Fuldtnavn());
