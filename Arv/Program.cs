@@ -35,7 +35,7 @@ namespace Arv
         }
     }
 
-    class Person
+    public class Person
     {
 
         public string Fornavn { get; set; }
